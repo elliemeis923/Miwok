@@ -10,16 +10,20 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".phrasesActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Phrases"/>
         <activity
             android:name=".colorsActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Colors"/>
         <activity
             android:name=".familtMembersActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Family Members"/>
         <activity
             android:name=".numbersActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Numbers"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
